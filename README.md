@@ -10,7 +10,7 @@ For windows:
 Open a cmd window in the project folder, where the build file (build.gradle.kts) is located.
 Execute the command "gradlew build", wait for completion
 
-For windows:
+For linux:
 
 Open a cli in the project folder, where the build file (build.gradle.kts) is located.
 Execute the command "./gradlew build", wait for completion
