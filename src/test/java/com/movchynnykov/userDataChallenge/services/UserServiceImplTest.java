@@ -9,9 +9,8 @@ import org.junit.jupiter.api.TestInstance.Lifecycle;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.movchynnykov.userDataChallenge.dto.UserDto;
-import com.movchynnykov.userDataChallenge.interfaces.IUserService;
-import com.movchynnykov.userDataChallenge.request.LoginRequest;
-import com.movchynnykov.userDataChallenge.request.SignUpRequest;
+import com.movchynnykov.userDataChallenge.dto.request.LoginRequest;
+import com.movchynnykov.userDataChallenge.dto.request.SignUpRequest;
 
 @TestInstance(Lifecycle.PER_CLASS)
 public class UserServiceImplTest {

@@ -12,11 +12,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.movchynnykov.userDataChallenge.Utils.Constantes;
-import com.movchynnykov.userDataChallenge.interfaces.IUserService;
-import com.movchynnykov.userDataChallenge.request.LoginRequest;
-import com.movchynnykov.userDataChallenge.request.SignUpRequest;
-import com.movchynnykov.userDataChallenge.response.ErrorResponse;
-import com.movchynnykov.userDataChallenge.response.UserResponse;
+import com.movchynnykov.userDataChallenge.dto.request.LoginRequest;
+import com.movchynnykov.userDataChallenge.dto.request.SignUpRequest;
+import com.movchynnykov.userDataChallenge.dto.response.ErrorResponse;
+import com.movchynnykov.userDataChallenge.dto.response.UserResponse;
+import com.movchynnykov.userDataChallenge.services.IUserService;
 
 
 @RestController

@@ -3,7 +3,7 @@ package com.movchynnykov.userDataChallenge.dto;
 import java.sql.Timestamp;
 import java.util.List;
 
-import com.movchynnykov.userDataChallenge.entities.Phone;
+import com.movchynnykov.userDataChallenge.model.Phone;
 
 import lombok.Builder;
 import lombok.Data;
